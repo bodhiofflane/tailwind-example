@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // Ищем бедем классы для компеляции в стили из .src/любая вложенность .html | .js
-  content: ["index.html"],
+  content: ["public/index.html"],
   // Данный флаг понадобится только для разработки. После разработки, переключение будет поисходить автоматически
   //darkMode: 'class',
   theme: {
